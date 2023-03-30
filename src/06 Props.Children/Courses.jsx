@@ -52,7 +52,7 @@
 import React,{ Component } from 'react'
 
 export default class Courses extends Component {
-//// !using the static default property inside the component
+// !using the static default property inside the component
   //   static defaultProps = {
   //       cousername: "dotnet",
   //       trainer: "Shashi",

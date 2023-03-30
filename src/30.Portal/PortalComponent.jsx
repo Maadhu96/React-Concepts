@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import {createPortal} from 'react-dom';
 
 function Modal() {
   const [showPortal, setShowPortal] = useState(false);
@@ -7,11 +7,11 @@ function Modal() {
   const handleTogglePortal = () => {
     setShowPortal(!showPortal);
   };
-
+crea
   const portalContainer = document.getElementById('portal');
 
   if (showPortal) {
-    return ReactDOM.createPortal(
+    return createPortal(
       <div className="portal">
         <p>This content is rendered in a portal!</p>
       <button onClick={handleTogglePortal}>Click to Component</button>

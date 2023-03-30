@@ -54,8 +54,8 @@ import { createRoot } from "react-dom/client";
 // ====================
 // !Props.children
 
-import App8 from './06 Props.Children/App8';
-createRoot(document.getElementById("root")).render(<App8/>)
+// import App8 from './06 Props.Children/App8';
+// createRoot(document.getElementById("root")).render(<App8/>)
 
 // ====================================
 // !Prop.drilling
@@ -65,8 +65,8 @@ createRoot(document.getElementById("root")).render(<App8/>)
 
 // !Prop drilling application level using JSON
 
-// import App10 from "./07 propdrilling1.jsx/App10";
-// import "./07 propdrilling1.jsx/style.css"
+// import App10 from "./07 propdrilling1/App10";
+// import "./07 propdrilling1/style.css"
 // createRoot(document.getElementById("root")).render(<App10/>)
 
 // !Synthetic events
@@ -178,8 +178,8 @@ createRoot(document.getElementById("root")).render(<App8/>)
 
 // !useLayoutEffect
 
-// import App from "./22 UseLayoutEffect/App";
-// createRoot(document.getElementById("root")).render(<App />);
+import App from "./22 UseLayoutEffect/App";
+createRoot(document.getElementById("root")).render(<App />);
 
 // !Custom Hooks
 
@@ -266,4 +266,13 @@ createRoot(document.getElementById("root")).render(<App8/>)
 // ! Passing props from Child to Parent using callback function
 
 // import App from "./36 Props from child to parent/Parent"
+// createRoot(document.getElementById("root")).render(<App/>)
+
+// ! Usememo 
+// import App from "./37 Usememo/Usememo.jsx"
+// createRoot(document.getElementById("root")).render(<App/>)
+
+
+// ! Lazy Loading or Code splitting
+// import App from "./38 LazyLoading/App"
 // createRoot(document.getElementById("root")).render(<App/>)

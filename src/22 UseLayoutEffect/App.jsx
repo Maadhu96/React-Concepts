@@ -10,7 +10,6 @@ const App = () => {
         let data="gagan"//after render
         setState(data)
     }, [])
-    
     useLayoutEffect(() => {
         console.log("i am uselayoutEffect and i am synchronous");
         let data = "Shashi" //before render
@@ -18,7 +17,7 @@ const App = () => {
     },[])
   return (
     <div>
-      <h1>i am Maadhu and out trainer  {state} </h1>
+      <h1>i am Maadhu and trainer  {state} </h1>
     </div>
   )
 }

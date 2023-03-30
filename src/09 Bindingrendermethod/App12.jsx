@@ -135,13 +135,12 @@ export default class App12 extends Component {
 //         }
 //         else {
 //             document.body.style.background = "green";
-            
 //         }
 //     }
 //   render() {
 //     return (
 //         <div>
-//            <button onClick={this.changeBodycolor}>change body color</button> 
+//            <button onClick={this.changeBodycolor}>change body color</button>
 //       </div>
 //     )
 //   }

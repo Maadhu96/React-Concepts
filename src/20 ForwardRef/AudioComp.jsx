@@ -10,7 +10,6 @@ const AudioComp = (props,ref) => {
         onClick={PlayorPause}
       />
       <audio src={props.audioData} autoplay></audio>
-
       <h1>{!play === true ? "Playing" : ""}</h1>
       <button onClick={PlayorPause}>{play ? "play" : "pause"}</button>
       <audio src={AUDIO} ref={ref}></audio>

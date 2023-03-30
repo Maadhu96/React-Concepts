@@ -1,14 +1,15 @@
 import React from 'react'
 
-const Product = ({title,description,price,image}) => {
+const Product = ({value}) => {
     
+  console.log(value)
   return (
     <div>
       <figure>
-        <img src={image} alt={title} />
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <button>{price+" USD"}</button>
+        <img src={avatar_url} alt="" />
+        <h1>{id}</h1>
+        <p>{url}</p>
+       <p>{node_id}</p>
       </figure>
     </div>
   );
