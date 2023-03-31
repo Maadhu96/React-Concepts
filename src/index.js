@@ -178,8 +178,8 @@ import { createRoot } from "react-dom/client";
 
 // !useLayoutEffect
 
-import App from "./22 UseLayoutEffect/App";
-createRoot(document.getElementById("root")).render(<App />);
+// import App from "./22 UseLayoutEffect/App";
+// createRoot(document.getElementById("root")).render(<App />);
 
 // !Custom Hooks
 
@@ -242,8 +242,8 @@ createRoot(document.getElementById("root")).render(<App />);
 
 // ! Portals
 
-// import App from "./30.Portal/PortalComponent"
-// createRoot(document.getElementById("root")).render(<App/>)
+import App from "./30.Portal/PortalComponent"
+createRoot(document.getElementById("root")).render(<App/>)
 
 // ! Modals
 
@@ -275,4 +275,9 @@ createRoot(document.getElementById("root")).render(<App />);
 
 // ! Lazy Loading or Code splitting
 // import App from "./38 LazyLoading/App"
+// createRoot(document.getElementById("root")).render(<App/>)
+
+// ! UseRef Counter
+
+// import App from "./39 UseRef/App"
 // createRoot(document.getElementById("root")).render(<App/>)
